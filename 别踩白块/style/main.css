@@ -1,0 +1,48 @@
+*{
+	padding:0;
+	margin:0;
+}
+#main{
+	position:absolute;
+	height:600px;
+	width:600px;
+	top:10%;
+	left: calc(50% - 300px);
+	border:2px solid rgba(72, 56, 67, 1);	
+	overflow:hidden;
+}
+#container{
+	height:100%;
+	width:100%;
+	position:relative;
+	top:-150px;
+}
+.cell {
+	width:150px;
+	height:150px;
+	border-collapse: collapse;
+	border:1px solid #ccc;
+}
+.row{
+	display:flex;
+	flex-direction: row;
+	width:100%;
+	height:150px;
+}
+.cell.black{
+	background:#000;
+}
+.cell.error{
+	background:#f00;
+}
+.nav{
+	text-align:center;
+}
+#score{
+	font-size:25px;
+	line-height:1em;	
+}
+#controler{
+	position:absolute;
+	bottom:20px;
+}
